@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "922389522549",
+    "project_id": "tectone23-97468",
+    "storage_bucket": "tectone23-97468.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922389522549:android:683cef98d0ea4e6778f03c",
+        "android_client_info": {
+          "package_name": "com.example.tectone23_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA345VZBWq1pjNFI-oyTrC6zhQc8-uTVSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

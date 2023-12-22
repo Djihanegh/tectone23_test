@@ -1,0 +1,23 @@
+{
+  "appName": "Tectone23",
+  "home": "Home",
+  "settings": "Settings",
+  "profile": "Profile",
+  "wallet": "Wallet",
+  "currentBalance": "Current Balance",
+  "send": "Send",
+  "receive": "Receive",
+  "signUpTitle": "Sign up to continue",
+  "signUp": "Sign Up",
+  "signInTitle": "Sign in to continue",
+  "signIn": "Sign In",
+  "email": "Email",
+  "password": "Password",
+  "alreadyHaveAnAccount": "Already have an account?",
+  "dontHaveAnAccount": "Don't have an account?",
+  "forgotYourPassword": "Forgot your password?",
+  "cancel": "Cancel",
+  "signInWithGoogle": "Sign in with Google",
+  "forgotYourPasswordDescription": "Enter your email address and we will send you a link to reset your password.",
+  "resetPasswordEmailSent": "Reset password email sent"
+}
