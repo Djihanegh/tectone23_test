@@ -3,13 +3,12 @@ import 'package:go_router/go_router.dart';
 
 enum AppRoute {
   // Common
-  splash('/splash', 'splash'),
+
   home('/home', 'home'),
   profile('/profile', 'profile'),
   wallet('/wallet', 'wallet'),
-  newTransaction('/newTransaction' , 'newTransaction'),
+  newTransaction('/newTransaction', 'newTransaction'),
   auth('/', 'auth'),
-
   ;
 
   const AppRoute(

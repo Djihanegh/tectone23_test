@@ -19,5 +19,12 @@
   "cancel": "Cancel",
   "signInWithGoogle": "Sign in with Google",
   "forgotYourPasswordDescription": "Enter your email address and we will send you a link to reset your password.",
-  "resetPasswordEmailSent": "Reset password email sent"
+  "resetPasswordEmailSent": "Reset password email sent",
+  "errorWrongPassword": "Wrong password",
+  "errorTooManyRequests": "We have blocked all requests from this device due to unusual activity. Please try again later.",
+  "errorInvalidEmailAddress": "Invalid email address",
+  "errorEmailAlreadyInUse": "Email already in use",
+  "errorAccountNotExist": "Account not exist",
+  "errorWeakPassword": "Password should be at least 6 characters",
+  "errorUnknownError": "Unknown error. Please try again later."
 }

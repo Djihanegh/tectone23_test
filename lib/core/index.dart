@@ -22,7 +22,6 @@ export 'extension/index.dart';
 
 // features
 export '../feature/home/ui/home_page.dart';
-export '../feature/splash/ui/splash_page.dart';
 export '../feature/wallet/ui/page/wallet_page.dart';
 export '../feature/profile/ui/page/profile_page.dart';
 

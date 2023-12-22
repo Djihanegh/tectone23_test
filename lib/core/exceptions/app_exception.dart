@@ -1,5 +1,5 @@
 import '../index.dart';
-
+import 'package:firebase_auth/firebase_auth.dart' as auth;
 
 enum AppException {
   // Auth
@@ -30,7 +30,17 @@ enum AppException {
   }
 
   factory AppException._create(dynamic e) {
-
+    if (e is auth.FirebaseAuthException) {
+      return switch (e.code) {
+        'wrong-password' => wrongPassword,
+        'too-many-requests' => tooManyRequests,
+        'invalid-email' => invalidEmailAddress,
+        'email-already-in-use' => emailInUse,
+        'user-not-found' => accountDoesNotExist,
+        'weak-password' => weakPassword,
+        _ => unknown
+      };
+    }
 
     if (e is AppException) {
       return e;
@@ -39,5 +49,13 @@ enum AppException {
     return unknown;
   }
 
-  String getText(AppLocalizations l10n) => '';
+  String getText(AppLocalizations l10n) => switch (this) {
+        AppException.wrongPassword => l10n.errorWrongPassword,
+        AppException.tooManyRequests => l10n.errorTooManyRequests,
+        AppException.invalidEmailAddress => l10n.errorInvalidEmailAddress,
+        AppException.emailInUse => l10n.errorEmailAlreadyInUse,
+        AppException.accountDoesNotExist => l10n.errorAccountNotExist,
+        AppException.weakPassword => l10n.errorWeakPassword,
+        AppException.unknown => l10n.errorUnknownError
+      };
 }

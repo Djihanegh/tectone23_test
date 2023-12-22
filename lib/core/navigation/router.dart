@@ -6,11 +6,7 @@ import '../index.dart';
 GoRouter getRouter() {
   return GoRouter(
     routes: [
-      GoRoute(
-        path: AppRoute.splash.path,
-        name: AppRoute.splash.name,
-        builder: (context, state) => const SplashPage(),
-      ),
+
       GoRoute(
         path: AppRoute.home.path,
         name: AppRoute.home.name,
