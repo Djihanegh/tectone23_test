@@ -25,7 +25,13 @@ git clone https://github.com/Djihanegh/tectone23_test.git
 flutter pub get
 ```
 
-3. Open an android emulator ( for the moment i have added only android app in firebase ) 
+3. run the command below to genearte app localization :
+
+  ```
+flutter gen-10n
+```
+  
+4. Open an android emulator ( for the moment i have added only android app in firebase ) 
 
 ```
   Happy Coding !!
